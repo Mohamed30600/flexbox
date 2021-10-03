@@ -132,9 +132,25 @@ footer{
 
 /*************************deskstop****************************/
 @media screen and (min-width :1024px) {
-    #cote {
-        min-width: auto;
-    }
+   * {
+       padding: 0px;
+       margin: 0px
+   }
+   body{
+       height: 150px;
+   }
+   .container{
+       display: flex;
+       flex-direction: inline-block;
+       flex-grow: 1;
+       
+       
+
+   }
+   .cote{
+      height: 30vh;
+   }
+    
 
 
     
