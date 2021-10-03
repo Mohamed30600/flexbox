@@ -1,158 +1,177 @@
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-}
-
-body{
-     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-      
-}
-h1,h2,p{
-    padding: 10px;
-}
-#menu{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-   
-}
-
-
- header,body,section,nav,footer,aside{
-    width: 100%;
-    border:5px solid black;
-    color: white;
-      
-}  
-
-
-
-.container>*{
-    flex-grow: 1;
-}
-header h1{
-    background-color: darkcyan;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
     
-    
-}
-h1{
-    text-align: center ;
-    
-}
-
-.navigation{
-    display:flex;
-    flex-direction: column;
-    width: 100%;
-    background:deepskyblue;
-    text-align: center;
-    order:2;
-    
-    
-
-}
-nav a {
-    display: flex;
-    justify-content: space-around;
-    text-decoration: none;
-    color: white;
-    padding: 12px;
-}
-#content{
-    background: burlywood;
-    padding: 10px;
-    
-    
-    
-
-    
-}
-#cote{
-    
-    background: magenta;
-    
-    
-
-}
-footer{
-
-    background: indianred;
-    text-align: center;
-   padding: 10px;
-} 
-/**************************mode tablette******************/
-
-
-
-@media screen and (min-width :700px) {
     body{
-    align-items: stretch;
+         display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+          
     }
-   
-    .container2{
+    h1,h2,p{
+        padding: 10px;
+    }
+    #menu{
         display: flex;
-        justify-content: inline-block;
-        flex-direction: row-reverse;
-        height: 50vh;  
-    }
-    nav a {
-        padding: 20px;
-    }
-    header{
-        height: 10vh;
-        background-color: darkcyan;
-    }
-    h2, p{
-        padding: 20px;
+        flex-direction: column;
+        height: 100vh;
+       
     }
     
-    #navigation{
-        width: 200px;    
+    
+     header,body,section,nav,footer,aside{
+        width: 100%;
+        border:5px solid black;
+        color: white;
+          
+    }  
+    
+    
+    
+    .container>*{
+        flex-grow: 1;
+    }
+    header h1{
+        background-color: darkcyan;
+        
         
     }
-   h1{
-       padding:20px ;
-   }
-   aside{
-       height: 30vh;
-   }
-   #footer{
-       height: 10vh;
-   }
-
+    h1{
+        text-align: center ;
+        
     }
     
-
-
-
+    .navigation{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        background:deepskyblue;
+        text-align: center;
+        order:2;
+        
+        
     
-
-/*************************deskstop****************************/
-@media screen and (min-width :1024px) {
-   * {
-       padding: 0px;
-       margin: 0px
-   }
-   body{
-       height: 150px;
-   }
-   .container{
-       display: flex;
-       flex-direction: inline-block;
-       flex-grow: 1;
+    }
+    nav a {
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+        color: white;
+        padding: 12px;
+    }
+    #content{
+        background: burlywood;
+        padding: 10px;
+        
+        
+        
+    
+        
+    }
+    #cote{
+        
+        background: magenta;
+        
+        
+    
+    }
+    footer{
+    
+        background: indianred;
+        text-align: center;
+       padding: 10px;
+    } 
+    /**************************mode tablette******************/
+    
+    
+    
+    @media screen and (min-width :700px) {
+        body{
+        align-items: stretch;
+        }
+       
+        .container2{
+            display: flex;
+            justify-content: inline-block;
+            flex-direction: row-reverse;
+            height: 50vh;  
+        }
+        nav a {
+            padding: 20px;
+        }
+        header{
+            height: 10vh;
+            background-color: darkcyan;
+        }
+        h2, p{
+            padding: 20px;
+        }
+        
+        #navigation{
+            width: 200px;    
+            
+        }
+       h1{
+           padding:20px ;
+       }
+       aside{
+           height:30vh;
+       }
+       footer{
+           height: 10%;
+       }
+    
+        }
+        
+    
+    
+    
+        
+    
+    /*************************deskstop****************************/
+    @media screen and (min-width :1080px) {
+        .container{
+            display: flex;
+            justify-content: inline-block;
+           
+            
+            
+            
+        }
+        #footer{
+            height:2vh
+        }
+        .container2{
+            height: 81vh;
+        }
+        #footer{
+            height:13vh;
+        }
+        aside{
+            height:81vh;
+            width:30%;
+        }
+        #navigation{
+            width:30%;
+            text-transform: uppercase;
+            text-align: center;
+            
+        }
+        nav a{
+            padding-top: 30%;
+        }
+        p,h2{
+            padding: 3%;
+        }
+    
+       }
        
        
-
-   }
-   .cote{
-      height: 30vh;
-   }
+        
     
-
-
     
-
-}
+        
+    
+    
